@@ -19,6 +19,17 @@ System.out.println(message);
 //}
 ```
 
-# Advanced usage
+Boid.prototype.steer = function(desired) {
+	//TODO !
+	return new Victor(0, 0);
+};
 
-If you want a more complex example (external libraries, viewers...), use the [Advanced Java template](https://tech.io/select-repo/385)
+function getFriction() {
+	//TODO !
+	return 0.0;
+}
+
+function getMaxForce() {
+    //TODO !
+	return 0;
+}
